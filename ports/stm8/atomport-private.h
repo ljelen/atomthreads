@@ -72,9 +72,9 @@
 /* Function prototypes */
 void archInitSystemTickTimer (void);
 #ifndef __SDCC_stm8
-INTERRUPT void TIM1_SystemTickISR (void);
+INTERRUPT void TIM2_SystemTickISR (void);
 #else
-void TIM1_SystemTickISR (void) __interrupt(11);
+void TIM2_SystemTickISR (void) __interrupt(13);
 #endif
 
 #endif /* __ATOM_PORT_PRIVATE_H */

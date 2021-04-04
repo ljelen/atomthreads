@@ -47,7 +47,7 @@
 
 /************************************* ADC ************************************/
 #if defined(STM8S105) || defined(STM8S103) || defined(STM8S903)
-/* #define _ADC1 (1) */  
+#define _ADC1 (1)
 #endif /* (STM8S105) ||(STM8S103) || (STM8S903) */
 
 #if defined(STM8S208) || defined(STM8S207)

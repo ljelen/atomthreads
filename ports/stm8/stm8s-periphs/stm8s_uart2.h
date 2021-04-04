@@ -24,7 +24,7 @@
 #define __STM8S_UART2_H
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm8s.h"
+#include "inc/stm8s.h"
 /* Exported types ------------------------------------------------------------*/
 
 /** @addtogroup UART2_Exported_Types

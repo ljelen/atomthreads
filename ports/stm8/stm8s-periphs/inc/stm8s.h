@@ -23,6 +23,10 @@
 #ifndef __STM8S_H
 #define __STM8S_H
 
+#define HSI_VALUE   ((u32)16000000) /*!< Typical Value of the HSI in Hz */
+#define LSI_VALUE   ((u32)128000)   /*!< Typical Value of the LSI in Hz */
+#define CLK_TIMEOUT ((u16)0x491)    /*!< Timeout for the clock switch operation. */
+
 /******************************************************************************/
 /*                   Library configuration section                            */
 /******************************************************************************/
@@ -100,7 +104,7 @@
 
 #ifdef _SDCC_
  #define NEAR
- #define __CONST  const
+ #define CONST  const
 #endif
 
 #ifdef PointerAttr_Far

@@ -26,7 +26,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 /* Contains the description of all STM8 hardware registers */
-#include "stm8s.h"
+#include "inc/stm8s.h"
 
 /* Exported types ------------------------------------------------------------*/
 /** @addtogroup CLK_Exported_Types
